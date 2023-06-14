@@ -1,0 +1,305 @@
+@media screen and (width >= 768px){
+
+  .container {
+    width: 100%;
+  }
+
+  .firstcontent{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .secondbox {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: 0;
+  }
+
+  .firstbox {
+    position: relative;
+    left: 39px;
+  }
+
+  .header {
+    display: flex;
+    flex-direction: row;
+    padding: 49px 39px;
+    align-items: center;
+    justify-content: space-between;
+
+  }
+
+  .secondcontent {
+    margin-top: 100px;
+  }
+  
+  .firstpic {
+    display: none;
+  }
+
+  .firstpictablet{
+    display: flex;
+    
+  }
+
+  .twopic {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    column-gap: 15px;
+   
+  }
+
+  .secondpic {
+    width: 500px;
+    height: 320px;
+    position: static;
+  }
+
+  .secondpictablet {
+    display: flex;
+  }
+
+  .secondpic {
+    display: none;
+  }
+
+
+  .secondcontenttexts{
+    margin-top: 72px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 66px;
+  }
+
+  .secondcontenttexts h2 {
+    width: 398px;
+    height: 78px;
+    text-align: start;
+    margin-bottom: 20px;
+  }
+
+  .lastcontent {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 30px;
+    row-gap: 95px;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: baseline;
+    margin-top: 142px;
+    margin-bottom: 142px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+
+
+  }
+
+  .box {
+    align-items: baseline;
+
+  }
+
+  .box  h2 {
+    text-align: start;
+    width: 281px;
+    
+
+  }
+  .boxfirsth4{
+    height: 56px;
+    width: 205px;
+    margin-bottom: 50px;
+
+  }
+
+  .boxsecondh4 {
+    width: 255px;
+    height: 56px;
+
+
+  }
+
+  .boxthirdh4 {
+    height: 56px;
+    width: 261px;
+
+  }
+
+  .boxfourthh4 {
+    width: 221px;
+    height: 56px;
+  }
+
+  h4 {
+    text-align: start;
+  }
+
+
+
+
+}
+
+
+@media screen and (width >= 1440px){
+  .container{
+    width: 100%;
+  }
+
+  .header {
+    display: flex;
+    flex-direction: row;
+    padding-top: 64px;
+    align-items: center;
+    justify-content: center;
+    column-gap: 820px;
+  }
+  .firstcontent{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    column-gap: 7%;
+    background-image: url(./assets/Rectangle\ \(6\).svg);
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+  }
+
+
+
+  .secondbox {
+
+    position: relative;
+    width: 540px;
+    height: 480px;
+    margin-top: 0px;
+    background-image: none;
+    border-radius: 15px;
+
+  
+  }
+
+  .deskkeyboard{
+    display: flex;
+  }
+
+  .dekstopfirsttext{
+    display: none;
+  }
+  .dekstopfirsttextt{
+    display: none;
+  }
+
+  .dekstopfirsttextflex {
+    display: flex;
+    align-items: center;
+    justify-content: center
+
+  }
+  .dekstopfirsttexttflex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .desktopflex {
+    align-items: center;
+    justify-content: center;
+    margin-left: 90px;
+  }
+
+  .dekstopfirsttextflex h3 {
+    width: 255px;
+    height: 108px;
+    font-weight: 900;
+    font-style: 32px;
+    line-height: 36px;
+  }
+
+  .desktopflex h2 {
+    width: 255px;
+    height: 130px;
+    margin-top: 27px;
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+
+  .secondpictablet{
+    display: none;
+  }
+
+  .secondpickdesktop{
+    display: flex;
+  }
+
+  .firstpictablet{
+    display: none;
+  }
+
+  .firspicdesktop{
+    display: flex;
+  }
+
+  .secondcontent {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./assets/Rectangle\ \(7\).svg);
+    background-repeat: no-repeat;
+    background-position-y: 100%;
+  }
+
+  .twopic{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .firstbox{
+    width: 475px;
+    display: flex;
+    align-items: baseline;
+    
+  }
+
+  h1 {
+    font-size: 56px;
+    line-height: 56px;
+  }
+
+  h2{
+    font-size: 18px;
+    line-height: 26px;
+  }
+
+  .firstcontent h1 {
+    width: 445px;
+    height: 122px;
+    overflow: hidden;
+  }
+  .firstcontent h2 {
+    width: 445px;
+    height: 78px;
+    overflow: hidden;
+  }
+
+  .lastcontent{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 40px;
+  }
+
+  .box {
+
+    height: 350px;
+    width: 260px;
+  }
+
+}
